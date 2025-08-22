@@ -1,6 +1,10 @@
+import Form from "@/components/Form"
+
 const CampPage = () => {
   return (
-    <div>CampPage</div>
-  )
-}
-export default CampPage
+    <div className="p-4">
+      <Form />
+    </div>
+  );
+};
+export default CampPage;
